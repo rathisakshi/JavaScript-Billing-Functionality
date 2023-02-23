@@ -1,0 +1,93 @@
+
+
+body{
+    margin:0% 0% 0% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+.header{
+    display: flex;
+    background-color:thistle;
+}
+.header .logo{
+    width:20%;
+    margin: 1% 1% 1% 1.25%;
+}
+ .header .logo img{
+    width:75%;
+}
+
+.name{
+    margin:5% 0% 0% 0%;
+  
+    font-size:x-large;
+    font-family: sans-serif;
+    color:darkslategray;
+    font-style: italic;
+    font-weight: bold;
+    width:80%;
+    text-align: center;
+}
+.main{
+    display: flex;
+}
+.product1{
+    width:50%;
+    margin: 7% 5% 0% 5%;    
+}
+.main .product1 img{
+    width:100%;
+    height:80%;
+}
+.main span{
+    font-weight: bold;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.main ul li{
+    text-decoration: none;
+    padding:6px;
+}
+.about{
+    font-weight: bold;
+}
+
+
+.counter {
+    width: 150px;
+    margin: 5% 0% 0% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background:  #04AA6D;
+    color: #fff;
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color:  #04AA6D;
+    user-select: none;
+}
+
+input[type=button]{
+    background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding:4% 12% 4% 12%;
+  text-decoration: none;
+  margin: 0% 0% 0% 40%;
+  cursor: pointer;
+  width:100%;
+
+}

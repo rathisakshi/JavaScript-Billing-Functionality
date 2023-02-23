@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="address.css">
+  <script src="address.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="main">
+      <legend class="styles">Shipping Address</legend>
+      <form name="RegForm" onsubmit="return Register()" method="post">
+        <fieldset>
+
+          <label>First Name</label> <input type="text" size="65" name="FirstName" placeholder="Enter First name"
+            id="FirstName" required />
+          <label>Last Name </label><input type="text" size="65" name="LastName" placeholder="Enter last name"
+            id="LastName" required />
+          <label>E-mail Address</label> <input type="text" size="65" name="EMail" placeholder="Enter Email" id="EMail"
+            required />
+          <label>Address</label><input type="text" size="65" name="Address" placeholder="Enter your address"
+            id="Address" required />
+          <label>Postal code</label> <input type="text" size="65" name="Postal" placeholder="Enter Postal code"
+            id="Postal" required />
+          <label>City</label> <input type="text" size="65" name="City" placeholder="Enter your city" id="City"
+            required />
+        </fieldset>
+        <div class="footer">
+        <input type="checkbox" id="same" name="same" onclick="billingFunction()" class="btn" />
+        <p>Billing address same as shipping address</p>
+        </div>
+    </div>
+    <!-- <div class="footer"> -->
+
+
+    <!--   
+    </div> -->
+
+    <div class="main">
+      <legend class="styles">Billing Address</legend>
+      <fieldset>
+
+        <label>First Name</label> <input type="text" size="65" name="FirstName2" placeholder="Enter First name"
+          id="FirstName2" required />
+        <label>Last Name </label><input type="text" size="65" name="LastName2" placeholder="Enter last name"
+          id="LastName2" required />
+        <label>E-mail Address</label> <input type="text" size="65" name="EMail2" placeholder="Enter Email" id="EMail2"
+          required />
+        <label>Address</label><input type="text" size="65" name="Address2" placeholder="Enter your address"
+          id="Address2" required />
+        <label>Postal code</label> <input type="text" size="65" name="Postal2" placeholder="Enter Postal code"
+          id="Postal2" required />
+        <label>City</label> <input type="text" size="65" name="City2" placeholder="Enter your city" id="City2"
+          required />
+        
+
+    </div>
+
+
+  </div>
+  </fieldset>
+  <input type="submit" value="Place Order">
+  </form>
+
+</body>
+
+</html>

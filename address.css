@@ -1,0 +1,56 @@
+ body {
+    font-family: Arial;
+    font-size: 15px;
+    margin:1% 1% 1% 1%;
+    background-color: aliceblue;
+ 
+}
+
+
+
+input[type=text] {
+    width: 97%;
+    margin-bottom: 20px;
+    padding: 2% 2% 2% 2%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label{
+    width:100%;
+    margin:0% 0% 0% 0%;
+    padding:0% 0% 0% 0%;
+}
+
+.main{
+    width:40%;
+    padding: 2% 0% 0% 6%;
+}
+.header{
+    display: flex;
+}
+  
+.btn{
+    margin:0% 0% 0% 6%;
+}
+p{
+    margin:1% 0% 0% 1%;
+    padding:0% 0% 0% 0%;
+}
+.footer{
+    display: flex;
+}
+input[type=submit]{
+background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 1% 1% 1% 1%;
+  text-decoration: none;
+  margin: 0% 0% 0% 44%;
+  cursor: pointer;
+  width: 11%;
+}
+
+.styles{
+    font-size: x-large;
+    font-weight: bol2;
+}

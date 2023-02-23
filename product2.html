@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product1.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images.jpeg" alt="">
+        </div>
+        <div class="name">
+            <p>Pinapple Co.- Art and Design</p>
+        </div>
+
+    </div>
+    <div class="main">
+
+        <div class="product1">
+            <img src="painting2.jpeg" alt="">
+           
+           
+
+        </div>
+
+
+
+
+
+
+        <div class="product1">
+            <span> ONLY BRAND Modern Art Canvas Framed Wall Painting for Living Room||Size (42x26) inches Set Of
+                1||For Home Decor||Office Decor</span>
+            <span class="styling">MRP.:₹1,499</span>
+            <p>Brand:ONLY BRAND</p>
+
+            <p class="about">About this item</p>
+            <ul>
+                <li>NATURAL SCENERY</li>
+                <li>ROOM TYPE-LIVING ROOM</li>
+                <li>COLOR FAMILY-BRIGHTS</li>
+                <li>FRAMED PAINTING</li>
+                <li>CANVAS MATERIAL USED</li>
+                <li> PATTACHITRA PAINTING</li>
+                <li>GREAT CHOICE FOR BIRTHDAY</li>
+                <li>ODISHA ORIGNAL PATTACHITRA</li>
+                <li>42X26 INCHES SIZE</li>
+
+
+            </ul>
+            <div class="counter">
+                <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                <input type="text" value="1">
+                <span class="up" onClick='increaseCount(event, this)'>+</span>
+                <input type="button" value="Add to Cart" onclick="nextpage()">
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+
+</body>
+<script>
+    function increaseCount(a, b) {
+        var input = b.previousElementSibling;
+        var value = parseInt(input.value, 10);
+        value = isNaN(value) ? 0 : value;
+        value++;
+        input.value = value;
+    }
+
+    function decreaseCount(a, b) {
+        var input = b.nextElementSibling;
+        var value = parseInt(input.value, 10);
+        if (value > 1) {
+            value = isNaN(value) ? 0 : value;
+            value--;
+            input.value = value;
+        }
+    }
+    function nextpage(){
+        
+        var input = document.getElementById("quantity");
+        if (input.value<1){
+            window.alert("Please select a quantity");
+        }
+        else{
+            location.href = "address.html";
+        }
+    }
+    
+</script>
+
+
+</html>
